@@ -14,7 +14,7 @@ module.exports = {
       "members",
       "parameters",
       "statements"
-    ]
+    ],
     "arrow-return-shorthand": true,
     "class-name": true,
     "deprecation": true,
@@ -41,9 +41,31 @@ module.exports = {
     "member-access": true,
     "member-ordering": [
       true,
-      "public-before-private",
-      "static-before-instance",
-      "variables-before-functions"
+      {
+        "order": [
+          "public-static-field",
+          "private-static-field",
+          "public-instance-field",
+          "private-instance-field",
+          "public-constructor",
+          "private-constructor",
+          {
+            "name": "componentDidMount",
+            "kinds": [
+              "public-instance-method",
+            ]
+          },
+          {
+            "name": "render",
+            "kinds": [
+              "public-instance-method",
+            ]
+          },
+          "public-instance-method",
+          "protected-instance-method",
+          "private-instance-method"
+        ]
+      }
     ],
     "newline-before-return": true,
     "newline-per-chained-call": true,
@@ -66,6 +88,7 @@ module.exports = {
     "no-string-throw": true,
     "no-switch-case-fall-through": true,
     "no-this-assignment": true,
+    "no-trailing-whitespace": true,
     "no-unbound-method": true,
     "no-unnecessary-semicolons": true,
     "no-unsafe-any": true,
