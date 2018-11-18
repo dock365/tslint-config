@@ -1,6 +1,6 @@
 {
   "name": "@braces/tslint-config",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "custom tslint config",
   "main": "tslint.js",
   "scripts": {
