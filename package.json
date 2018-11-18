@@ -1,0 +1,34 @@
+{
+  "name": "@braces/tslint-config",
+  "version": "0.0.1",
+  "description": "custom tslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codebraces/tslint-config.git"
+  },
+  "keywords": [
+    "tslint"
+  ],
+  "author": "Hafeez Hamza <hafeez1042@gmail.com> (http://hafeezhamza.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codebraces/tslint-config/issues"
+  },
+  "homepage": "https://github.com/codebraces/tslint-config#readme",
+  "peerDependencies": {
+    "tslint": "^5.11.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "tslint-consistent-codestyle": "^1.14.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-microsoft-contrib": "^5.2.1"
+  }
+}
