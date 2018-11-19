@@ -19,7 +19,6 @@ module.exports = {
     "class-name": true,
     "deprecation": true,
     "eofline": true,
-    "export-name": true,
     "forin": false,
     'function-name': [
       true,
