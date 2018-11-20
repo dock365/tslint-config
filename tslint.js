@@ -120,7 +120,7 @@ module.exports = {
     "use-isnan": true,
     "use-named-parameter": true,
     "valid-typeof": true,
-    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
+    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case"],
     "whitespace": [
       true,
       "check-branch",
