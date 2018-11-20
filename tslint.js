@@ -16,6 +16,34 @@ module.exports = {
       "statements"
     ],
     "arrow-return-shorthand": true,
+    "ban-types": {
+      "options": [
+        [
+          "Object",
+          "Avoid using the `Object` type. Did you mean `object`?"
+        ],
+        [
+          "Function",
+          "Avoid using the `Function` type. Prefer a specific function type, like `() => void`."
+        ],
+        [
+          "Boolean",
+          "Avoid using the `Boolean` type. Did you mean `boolean`?"
+        ],
+        [
+          "Number",
+          "Avoid using the `Number` type. Did you mean `number`?"
+        ],
+        [
+          "String",
+          "Avoid using the `String` type. Did you mean `string`?"
+        ],
+        [
+          "Symbol",
+          "Avoid using the `Symbol` type. Did you mean `symbol`?"
+        ],
+      ],
+    },
     "class-name": true,
     "deprecation": true,
     "eofline": true,
@@ -48,18 +76,6 @@ module.exports = {
           "private-instance-field",
           "public-constructor",
           "private-constructor",
-          {
-            "name": "componentDidMount",
-            "kinds": [
-              "public-instance-method",
-            ]
-          },
-          {
-            "name": "render",
-            "kinds": [
-              "public-instance-method",
-            ]
-          },
           "public-instance-method",
           "protected-instance-method",
           "private-instance-method"
