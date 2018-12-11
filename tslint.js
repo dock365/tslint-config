@@ -114,7 +114,6 @@ module.exports = {
     'no-var-keyword': true,
     "no-with-statement": true,
     "object-literal-shorthand": true,
-    "only-arrow-functions": true,
     "prefer-conditional-expression": true,
     'prefer-const': true,
     "prefer-object-spread": true,
